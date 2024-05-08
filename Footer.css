@@ -1,0 +1,38 @@
+footer {
+    background-color: var(--text-dark);
+    color: var(--secondary-color);
+  }
+
+  .section__container {
+    padding: 5rem 1rem;
+    max-width: var(--max-width);
+    margin: auto;
+  }
+  
+  footer .section__container {
+    display: grid;
+    gap: 1.5rem;
+    text-align: center;
+  }
+  
+  footer h4 {
+    font-size: 1.5rem;
+    font-weight: 500;
+  }
+  
+  .social__icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+  }
+  
+  .social__icons i {
+    padding: 5px;
+    font-size: 1.2rem;
+    cursor: pointer;
+  }
+  
+  footer p {
+    font-style: italic;
+  }
